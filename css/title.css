@@ -1,0 +1,53 @@
+#title {
+  height: 100%; 
+  background-color: white;
+  max-width: 1720px;
+  margin: 0 auto;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 0 10px #ccc;
+  min-height: 600px;
+  /*  창이 줄어들어도 최소 600 이하로는 줄어들지 않게  */
+  background-image:
+    url(../img/logo.svg),
+    url(../img/accuniq.svg);
+  background-repeat: no-repeat;
+  background-position-y: 75%, 103%;
+  background-position-x: 77%, center;
+  /*  이미지 순서대로 위치 지정  */
+  background-size: 35%, 100%;
+  position: relative;
+}
+
+#title div.wrap {
+  height: 100%;
+}
+#title div.wrap hgroup {
+  
+  padding-left: 150px;
+}
+#title div.wrap hgroup h2.h6 {
+  
+  color: #00b5ff;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#title div.wrap hgroup h3 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+#title::after{
+  content: "";
+  background-image: url(../img/woman.png);
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+  background-position-x: 85%;
+  /*  이미지 순서대로 위치 지정  */
+  background-size: contain;
+  width: 655px;
+  height: 877px;
+  display: block;
+  position: absolute;
+  right: 140px;
+  bottom: -160px;
+}

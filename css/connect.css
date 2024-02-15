@@ -1,0 +1,62 @@
+section#connect {
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+}
+
+section#connect .wrap {
+  position: relative;
+  z-index: 1;
+}
+section#connect .wrap h2 {
+  
+  color: #666;
+  font-size: 35px;
+}
+section#connect .wrap h2 strong {
+line-height: 1.5;
+color: black;
+}
+section#connect .wrap p {
+  
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #999;
+  font-size: 15px;
+}
+section#connect .wrap > span {
+  margin-top: 60px;
+}
+section#connect .wrap span a {
+  
+  margin-bottom: 10px;
+}
+section#connect .wrap ul {
+  grid-column: 2;
+  grid-row: 1 / span 5;
+  overflow: hidden;
+  align-items: center;
+  gap: 30px;
+}
+section#connect .wrap ul li {
+
+}
+section#connect .wrap ul li:not(:first-child) {
+  /*! transform: scale(0.6); */
+  width: 180px;
+  height: 400px;
+}
+section#connect .wrap ul li img {
+  width: 100%;
+}
+section#connect::after {
+  content: "";
+  width: 1800px;
+  height: 350px;
+  display: block;
+  background-color: #f4f4f4;
+  border-radius: 30px 0 0 30px;
+  position: absolute;
+  right: 0;
+  top: 420px;
+}
